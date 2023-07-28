@@ -1,0 +1,13 @@
+{
+  "main": "accessibility.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/accessibility.js"
+  },
+  "dependencies": {
+    "puppeteer": "^20.9.0"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^7.0.4"
+  }
+}
